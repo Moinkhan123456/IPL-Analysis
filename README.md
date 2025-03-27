@@ -24,7 +24,7 @@
       - **Match Wins Based on Toss Decision: Pie chart showing the impact of toss choices.**
       - **Match Wins by Result Type: Pie chart visualizing how matches were won (by wickets, runs, super overs, or no result).**
 
-** 4. DAX Functions Used**
+**4. DAX Functions Used**
   - **Measures Created Using DAX:**
       - **Total Runs = SUM(ipl_ball_by_ball_2008_2022[runs])**
       - **Strike Rate = DIVIDE(SUM(ipl_ball_by_ball_2008_2022[runs]), SUM(ipl_ball_by_ball_2008_2022[balls])) * 100**
